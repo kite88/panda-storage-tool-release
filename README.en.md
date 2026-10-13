@@ -1,5 +1,9 @@
 [简体中文](README.md) | English
 
+<p align="center">
+  <img src="images/logo.png" alt="Panda Storage Tool" width="128">
+</p>
+
 # Panda Storage Tool · use a GitHub repository as cloud storage
 
 [![Release](https://img.shields.io/github/v/release/kite88/panda-storage-tool-release?style=flat)](https://github.com/kite88/panda-storage-tool-release/releases/latest)
