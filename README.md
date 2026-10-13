@@ -99,6 +99,8 @@ Windows / macOS / Linux 三平台，中英双语界面与亮暗主题；发布�
 
 - 都是**自包含单文件包，免装 .NET 运行时**：Windows 解压得到 `PandaStorageTool.exe` 双击即用；
   Linux / macOS 解压后 `chmod +x PandaStorageTool` 再运行。
+- Windows 首次运行若弹出「Windows 已保护你的电脑」（SmartScreen 未签名提示，正常现象）：点「更多信息」→「仍要运行」；
+  也可以先右键 `PandaStorageTool.exe` → 属性 → 勾选「解除锁定」，或在 PowerShell 里 `Unblock-File .\PandaStorageTool.exe`。
 - macOS 首次打开若被系统拦下，去「系统设置 → 隐私与安全性」放行即可。
 - `checksums.txt` 是上面所有包的 SHA256 校验和（`sha256sum -c checksums.txt`）。
 - 卸载即删：程序不写注册表、不装服务，唯一的落盘数据是下面说的配置目录。

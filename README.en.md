@@ -112,6 +112,9 @@ Grab the package for your platform from
 
 - Every package is a **self-contained single file — no .NET runtime required**. On Windows unzip and run
   `PandaStorageTool.exe`; on Linux / macOS run `chmod +x PandaStorageTool` first.
+- On Windows the first launch may trigger SmartScreen ("Windows protected your PC") because the binaries are
+  not code-signed — that is expected: click "More info" → "Run anyway", or right-click `PandaStorageTool.exe` →
+  Properties → tick "Unblock", or run `Unblock-File .\PandaStorageTool.exe` in PowerShell.
 - On macOS the first launch may be blocked by Gatekeeper: allow it under
   System Settings → Privacy & Security.
 - `checksums.txt` holds the SHA256 checksums of all packages (`sha256sum -c checksums.txt`).
