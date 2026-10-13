@@ -1,5 +1,9 @@
 简体中文 | [English](README.en.md)
 
+<p align="center">
+  <img src="images/logo.png" alt="熊猫存储工具" width="128">
+</p>
+
 # 熊猫存储工具 · 把 GitHub 仓库当网盘的桌面工具
 
 [![Release](https://img.shields.io/github/v/release/kite88/panda-storage-tool-release?style=flat)](https://github.com/kite88/panda-storage-tool-release/releases/latest)
