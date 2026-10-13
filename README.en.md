@@ -182,7 +182,9 @@ app and deleting the folder yourself does the same thing.
 - Empty folders are tracked locally: folders deleted elsewhere (web UI, command line) disappear only after a
   "Refresh" or "Fetch repository".
 - The update check is an **anonymous** GitHub API call (60 requests per hour per IP); when rate-limited or
-  offline it just shows "check failed" without affecting anything else.
+  offline it just shows "check failed" without affecting anything else. It only looks at *published* releases
+  (prereleases and drafts do not count); with none at all it says "no release has been published yet"
+  instead, which is not an error.
 - The website and GitHub links in "About" come from `appinfo.json` in the release repository (the GitHub raw
   URL and jsDelivr are queried in parallel, whichever answers first wins); if both fail the cached copy is
   used, and with no cache at all those two rows are simply hidden.
