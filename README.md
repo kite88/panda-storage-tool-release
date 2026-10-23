@@ -1,4 +1,4 @@
-简体中文 | [English](README.en.md)
+简体中文 | [繁體中文](README.zh-Hant.md) | [English](README.en.md)
 
 <p align="center">
   <img src="images/logo.png" alt="熊猫存储工具" width="128">

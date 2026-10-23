@@ -1,4 +1,4 @@
-[简体中文](README.md) | English
+[简体中文](README.md) | [繁體中文](README.zh-Hant.md) | English
 
 <p align="center">
   <img src="images/logo.png" alt="Panda Storage Tool" width="128">
